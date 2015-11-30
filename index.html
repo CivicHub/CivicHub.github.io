@@ -275,6 +275,14 @@
         <div class="bottom-bar">
             <div class="container">
                 <small class="copyright">Copyright @ 2015 <a href="http://themes.3rdwavemedia.com/" target="_blank">3rd Wave Media</a></small>  
+                <script language="javascript">
+                	function copyrightYear() {
+   					var d = new Date();
+   					var y = d.getFullYear();
+   					document.getElementById("copyright").innerHTML = 'Copyright &copy; ' + y + 'CivicHub';
+}
+				</script>
+copyrightYear();
             </div><!--//container-->
         </div><!--//bottom-bar-->
     </footer><!--//footer-->
